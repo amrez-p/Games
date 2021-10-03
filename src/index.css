@@ -16,9 +16,9 @@ code {
     monospace;
 }
 /* App */
-.App {
+/* .App {
   position: relative;
-}
+} */
 /* App */
 /* Towers */
 .twoTowers {
@@ -118,4 +118,11 @@ code {
   }
 }
 /* Mobile Screen */
+/* Landscape view */
+@media (orientation: landscape) {
+  .twoTowers {
+    height: 65vh;
+  }
+}
+/* Landscape view */
 /* Responsive Tower */
