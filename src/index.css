@@ -117,12 +117,45 @@ code {
     font-size: medium;
   }
 }
+
 /* Mobile Screen */
-/* Landscape view */
-@media (orientation: landscape) {
+
+/* Responsive Tower */
+
+/* Landscape View */
+@media (min-width: 568px) and (orientation: landscape) {
   .twoTowers {
-    height: 65vh;
+    height: 55vh;
   }
 }
-/* Landscape view */
-/* Responsive Tower */
+@media (min-width: 667px) and (orientation: landscape) {
+  .twoTowers {
+    height: 60vh;
+  }
+}
+@media (min-width: 760px) and (orientation: landscape) {
+  .twoTowers {
+    height: 55vh;
+  }
+}
+@media (min-width: 812px) and (orientation: landscape) {
+  .twoTowers {
+    height: 60vh;
+  }
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .twoTowers {
+    height: 80vh !important;
+  }
+}
+@media (min-width: 1366px) and (orientation: landscape) {
+  .twoTowers {
+    height: 85vh !important;
+  }
+}
+@media (min-width: 1440px) and (orientation: landscape) {
+  .twoTowers {
+    height: 80vh !important;
+  }
+}
+/* Landscape View */
